@@ -1,6 +1,8 @@
 # Waited 13 Years for GTA 6 — First 3 Hours: Watching a Download Bar
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-ff2ea6)](https://make.fun/bounty/gta6-meme-x-01)
+[![make.fun](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/tranquilnaturevista-code/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/tranquilnaturevista-code/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
 
 An entry for the make.fun bounty **"Post a GTA 6 meme on X"** — the top 50 memes share $500.
 
@@ -21,10 +23,9 @@ caption reads at a glance even when the picture is shrunk to 480×480.
 
 - `meme.png` — the meme (square PNG, AI-made in this session).
 - `POST_TEXT.txt` — the suggested text for the X post (link to the bounty,
-  `@makefunai`, and this account's play code `makefun-camp-buoy-picnic`).
-- `POST.json` — holds the post's address once it is posted on X from a public
-  account. It currently holds the starter placeholder; replace it with the real
-  `https://x.com/<handle>/status/<id>` after posting.
+  `@makefunai`, and this account's play code `makefun-gibbon-squid-toast`).
+- `POST.json` — holds the post's address, now the real post
+  `https://x.com/TNaturevista/status/2124697001216598306`.
 - `main.ts` — Node 22, standard library only. It copies `POST.json` to
   `/output/POST.json`, which is all the program has to do. The house reads the
   post itself from X and hands its first picture and its text to the judge.
