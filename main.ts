@@ -49,7 +49,8 @@ if (
   (parsed.hostname !== 'x.com' &&
     parsed.hostname !== 'twitter.com' &&
     parsed.hostname !== 'www.x.com' &&
-    parsed.hostname !== 'www.twitter.com') ||
+    parsed.hostname !== 'www.twitter.com' &&
+    parsed.hostname !== 'mobile.twitter.com') ||
   !/\/status\/\d+/.test(parsed.pathname)
 ) {
   fail(`"url" must be an https://x.com/ or https://twitter.com/ status address, got: ${url}`);
